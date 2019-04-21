@@ -1,4 +1,5 @@
 Manifest-Version: 1.0
 OpenIDE-Module-Install: org/netbeans/modules/android/update/loader/Installer.class
 OpenIDE-Module-Localizing-Bundle: org/netbeans/modules/android/update/loader/Bundle.properties
+OpenIDE-Module-Display-Category: Android
 

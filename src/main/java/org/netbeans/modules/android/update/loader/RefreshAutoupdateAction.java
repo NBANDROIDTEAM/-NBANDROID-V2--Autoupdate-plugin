@@ -40,7 +40,7 @@ public final class RefreshAutoupdateAction implements ActionListener {
         implementationVersion = moduleInfo.getImplementationVersion();
         if (implementationVersion != null) {
             try {
-                UpdateUnitProvider updateUnitProvider = updateUnitProviderFactory.create("NBANDROID", "NBANDROID Update Center", new URL("http://localhost:8080/updates/" + implementationVersion + "-updates.xml"));
+                UpdateUnitProvider updateUnitProvider = updateUnitProviderFactory.create("NBANDROID", "NBANDROID Update Center", new URL("http://server.arsi.sk:8080/updates/" + implementationVersion + "-updates.xml"));
                 updateUnitProvider.setEnable(true);
             } catch (MalformedURLException ex) {
                 Exceptions.printStackTrace(ex);
