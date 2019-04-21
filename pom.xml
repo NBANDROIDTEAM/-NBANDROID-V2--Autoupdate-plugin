@@ -5,6 +5,7 @@
     <artifactId>Gradle-Android-support-Loader</artifactId>
     <version>01.00-SNAPSHOT</version>
     <packaging>nbm</packaging>
+    <name>NbAndroid-AutoUpdate-Updater</name>
     <build>
         <plugins>
             <plugin>
@@ -13,6 +14,12 @@
                 <version>4.1.1-NBANDROID</version>
                 <extensions>true</extensions>
                 <configuration>
+                    <licenseName>Apache 2.0</licenseName>
+                    <homePageUrl>https://github.com/NBANDROIDTEAM/NBANDROID-V2</homePageUrl>
+                    <licenseFile>LICENSE.txt</licenseFile>
+                    <installerLicenseFile>LICENSE.txt</installerLicenseFile>
+                    <author>ArSi</author>
+                    <authorEmail>arsi@arsi.sk</authorEmail>
                     <requiresRestart>true</requiresRestart>
                     <defaultCluster>nbandroid</defaultCluster>
                     <cluster>nbandroid</cluster>
